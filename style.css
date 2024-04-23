@@ -87,7 +87,7 @@ a {
 
 /*! layout */
 .container {
-  max-width: 100rem;
+  max-width: 110rem;
   margin: 0 auto;
   padding: 9.6rem 2.4rem;
 }
@@ -284,17 +284,17 @@ textarea:focus-visible {
 /***** Hero Section *****/
 
 main {
-  height: 84vh;
+  height: 100vh;
   position: relative;
   background-color: #d9e9ff;
 
   background-image: linear-gradient(
     to top right,
-    #3d86fa,
-    #4484fb,
-    #679eff,
-    #b3d2ff,
-    #ebf3fe
+    #35383d,
+    #3c3c3d,
+    #1a1e24,
+    #313234,
+    #a1a6ad
   );
 }
 
@@ -338,7 +338,7 @@ main .section-hero {
     letter-spacing: 0.2rem;
     font-size: 1.7rem;
     word-spacing: 0.2rem;
-    color: #003b99;
+    color: #f4f5f7;
     font-weight: 700;
   }
 
@@ -347,7 +347,7 @@ main .section-hero {
     line-height: 1.5;
     initial-letter: -0.2rem;
     text-transform: capitalize;
-    color: #003b99;
+    color: #eef0f3;
     font-family: "Jost";
   }
 
