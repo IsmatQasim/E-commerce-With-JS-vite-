@@ -478,7 +478,7 @@ main .section-hero {
 
   & .icons {
     font-size: 3.2rem;
-    color: #576ef0;
+    color: #111111;
   }
 
   p {
@@ -495,7 +495,7 @@ main .section-hero {
 /***** why choose Section *****/
 
 .section-why--choose .grid {
-  gap: 9.6rem;
+  gap: 15rem;
   align-items: center;
 }
 
@@ -699,7 +699,7 @@ footer {
 .footer-container .content_1 p,
 .footer-container .content_4 p {
   color: #cccccc;
-  margin: 2.5rem 0;
+  /* margin: 2.5rem 0; */
   font-size: 1.4rem;
 }
 
@@ -990,6 +990,21 @@ footer {
       font-weight: bold;
     }
   }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px; 
+  background: transparent;;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 /*****  Add to Cart page ends *****/
